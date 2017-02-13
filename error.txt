@@ -1,0 +1,14 @@
+LEDOn.py:3: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT) ## Setup GPIO Pin 7 to OUT
+LEDOn.py:3: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT) ## Setup GPIO Pin 7 to OUT
+LEDOn.py:3: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT) ## Setup GPIO Pin 7 to OUT
+LEDOn.py:3: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT) ## Setup GPIO Pin 7 to OUT
+LEDOff.py:3: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT) ## Setup GPIO Pin 7 to OUT
+LEDOn.py:3: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT) ## Setup GPIO Pin 7 to OUT
+LEDOff.py:3: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(7, GPIO.OUT) ## Setup GPIO Pin 7 to OUT

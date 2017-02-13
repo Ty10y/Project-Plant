@@ -1,0 +1,13 @@
+Media Server running at http://:::8084
+{ state: 'on' }
+turning on
+
+{ state: 'on' }
+turning on
+
+{ state: 'off' }
+turning off
+
+{}
+turning off
+
