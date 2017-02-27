@@ -13,7 +13,6 @@ app.use(bodyParser.urlencoded({ extended: false })); // for parsing application/
 app.get("/LEDSwitch", function(req, res){
 	console.log(req.query)
 	try{
-	    execSync("python LEDOn.py")
 	    LED = req.query.state
 	    if (LED == "on") {
 		result = execSync("python LEDOn.py")
@@ -30,6 +29,22 @@ app.get("/LEDSwitch", function(req, res){
 	res.send("Hello!\n")
 	
 });
+
+app.get("/ClearSmallFiles", function(req,res){
+	console.log(req.query)
+	try{
+	    result = execSync("find /var/www/html/motion/ -size -1000k -delete")
+	    console.log(result.toString())
+	    res.send("Finished\n")
+	} catch(e) {
+	    res.status(500).send(e)
+	    res.send("Error\n")
+	}
+});
+
+
+
+
 
 var server = app.listen(8084, function () {
 

@@ -5,5 +5,9 @@ $(document).ready(function(){
 
     $("#buttonOff").click(function(){
         $.get("/LEDSwitch", {"state": "off"})
-    })
+    });
+
+    $("#buttonDelete").click(function(){
+    	$.get("/ClearSmallFiles")
+    });
 })
